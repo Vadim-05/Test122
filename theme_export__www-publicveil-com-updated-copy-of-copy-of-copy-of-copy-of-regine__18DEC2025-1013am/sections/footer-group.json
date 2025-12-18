@@ -1,1 +1,108 @@
-{"type":"footer","name":"t:sections.footer-group.name","sections":{"footer-promotions":{"type":"footer-promotions","disabled":true,"settings":{"hide_homepage":false,"align_text":"left"}},"1743107069fdbc7b54":{"type":"apps","blocks":{"klaviyo_email_marketing_sms_form_embed_block_mfgwLb":{"type":"shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507","settings":{"formId":"XnCmzB"}}},"block_order":["klaviyo_email_marketing_sms_form_embed_block_mfgwLb"],"settings":{"full_width":false,"space_around":true}},"rich_text_YpXGph":{"type":"rich-text","blocks":{"heading_6LQ8rn":{"type":"heading","settings":{"title":"Support"}},"text_EggGAy":{"type":"text","settings":{"enlarge_text":false,"text":"<p>Based in Brooklyn, NY.<\/p><p>We're here M-F 9am - 5pm EST.<\/p><p><a href=\"mailto:info@publicveil.com\" title=\"mailto:info@publicveil.com\">Drop us a note anytime.<\/a><\/p>"}}},"block_order":["heading_6LQ8rn","text_EggGAy"],"name":"t:sections.rich-text.presets.rich_text.name","settings":{"align_text":"left","narrow_column":true,"divider":false}},"footer":{"type":"footer","blocks":{"footer-3":{"type":"menu","settings":{"show_footer_title":false,"menu":"footer","container_width":20}},"footer-0":{"type":"logo_social","settings":{"desktop_logo_height":50,"container_width":20}}},"block_order":["footer-3","footer-0"],"settings":{"show_locale_selector":true,"show_currency_selector":false,"show_currency_flags":false,"show_payment_icons":false,"colorize_payment_icons":false,"show_copyright":true,"copyright_text":""}}},"order":["footer-promotions","1743107069fdbc7b54","rich_text_YpXGph","footer"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "footer",
+  "name": "t:sections.footer-group.name",
+  "sections": {
+    "footer-promotions": {
+      "type": "footer-promotions",
+      "disabled": true,
+      "settings": {
+        "hide_homepage": false,
+        "align_text": "left"
+      }
+    },
+    "1743107069fdbc7b54": {
+      "type": "apps",
+      "blocks": {
+        "klaviyo_email_marketing_sms_form_embed_block_mfgwLb": {
+          "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/form-embed-block/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": "XnCmzB"
+          }
+        }
+      },
+      "block_order": [
+        "klaviyo_email_marketing_sms_form_embed_block_mfgwLb"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    },
+    "rich_text_YpXGph": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_6LQ8rn": {
+          "type": "heading",
+          "settings": {
+            "title": "Support"
+          }
+        },
+        "text_EggGAy": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>Based in Brooklyn, NY.</p><p>We're here M-F 9am - 5pm EST.</p><p><a href=\"mailto:info@publicveil.com\" title=\"mailto:info@publicveil.com\">Drop us a note anytime.</a></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_6LQ8rn",
+        "text_EggGAy"
+      ],
+      "name": "t:sections.rich-text.presets.rich_text.name",
+      "settings": {
+        "align_text": "left",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "footer-3": {
+          "type": "menu",
+          "settings": {
+            "show_footer_title": false,
+            "menu": "footer",
+            "container_width": 20
+          }
+        },
+        "footer-0": {
+          "type": "logo_social",
+          "settings": {
+            "desktop_logo_height": 50,
+            "container_width": 20
+          }
+        }
+      },
+      "block_order": [
+        "footer-3",
+        "footer-0"
+      ],
+      "settings": {
+        "show_locale_selector": true,
+        "show_currency_selector": false,
+        "show_currency_flags": false,
+        "show_payment_icons": false,
+        "colorize_payment_icons": false,
+        "show_copyright": true,
+        "copyright_text": ""
+      }
+    }
+  },
+  "order": [
+    "footer-promotions",
+    "1743107069fdbc7b54",
+    "rich_text_YpXGph",
+    "footer"
+  ]
+}

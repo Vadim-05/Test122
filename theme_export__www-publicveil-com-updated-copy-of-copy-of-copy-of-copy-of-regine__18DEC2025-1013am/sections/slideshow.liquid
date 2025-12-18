@@ -155,7 +155,7 @@
                       {% assign desktop_classes = 'hero__image hero__image--' | append: block.id %}
                     {% endif %}
 
-                    {%- render 'image-element',
+                    {%- render 'image-element-preload',
                       img: block.settings.image,
                       img_width: 2400,
                       loading: loading,
@@ -164,7 +164,7 @@
                     {%- if has_mobile_image -%}
                       {% assign mobile_classes = 'medium-up--hide hero__image hero__image--' | append: block.id %}
 
-                      {%- render 'image-element',
+                      {%- render 'image-element-preload',
                         img: block.settings.image_mobile,
                         img_width: 1200,
                         loading: loading,

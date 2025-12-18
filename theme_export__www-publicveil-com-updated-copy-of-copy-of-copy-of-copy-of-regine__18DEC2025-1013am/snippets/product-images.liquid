@@ -51,6 +51,12 @@
           {%- endfor -%}
         </div>
 
+        {% if product.metafields.custom.model_info %}
+          <div class="model-info-container">
+            <p>{{ product.metafields.custom.model_info }}</p>
+          </div>
+        {% endif %}
+
         {%- assign first_3d_model = product.media | where: 'media_type', 'model' | first -%}
 
         {%- if first_3d_model -%}
@@ -164,6 +170,53 @@
       }
     {% endstyle %}
   {% endif %}
+
+{% if product.metafields.custom.model_info %}
+{% style %}
+  .product__main-photos {
+    position: relative;
+  }
+  
+  .model-info-container {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 15px;
+    color: #333;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 20px;
+    padding: 8px 15px;
+    z-index: 1;
+    font-size: 14px;
+    text-align: center;
+    white-space: nowrap;
+    opacity: 1; /* Always visible */
+  }
+  
+  @media (max-width: 767px) {
+    .model-info-container {
+      font-size: 10px;
+      padding: 4px 10px;
+      bottom: 10px;
+      max-width: 80%;
+      white-space: normal;
+    }
+  }
+  
+  .model-info-container p {
+    color: black;
+    font-weight: 400;
+    margin-bottom: 0;
+    font-size: 12px;
+  }
+
+  @media (max-width: 767px) {
+    .model-info-container p {
+      font-size: 10px;
+    }
+  }
+{% endstyle %}
+{% endif %}
 
   <script type="application/json" id="ModelJson-{{ section_id }}">
     {{ product.media | where: 'media_type', 'model' | json }}
